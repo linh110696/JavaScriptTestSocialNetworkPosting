@@ -1,0 +1,53 @@
+textarea.postText{
+    width: 100%;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+.avatar {
+    height: 40px !important
+}
+.wordcount{
+    color:gray;
+}
+.btn-post {
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    color: blueviolet;
+    float: right;
+    margin: 10px;
+    height: 40px;
+}
+body {
+    background-color: rgb(105, 22, 101);
+}
+.row {
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.btn{
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    color: blueviolet;
+    width: 50px;
+    height: 50px;
+}
+.btn-hover{
+    color:white;
+    background-color:blue;
+}
+.btn-clickdown{
+    color:black;
+    background-color:orange;
+}
+/*!important for the toggle effect*/
+.btn-toggle{
+    color: white !important;
+    background-color:blue !important;
+}
+p{
+    white-space: normal;
+    word-wrap: break-word;
+}

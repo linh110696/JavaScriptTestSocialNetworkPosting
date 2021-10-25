@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>feedster</title>
+	<link href="bootstrap.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+	<!-- header -->
+	<nav class="navbar navbar-expand-lg bg-light navbar-light text-nowrap">
+        <a class="navbar-brand justify-content-center" href="/"><h1>Feedster</h1></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">    
+            <ul id="menu" class="navbar-nav ml-auto">
+            <li class="nav-item  active-pos"><a class="nav-link" href="/" title="Contact">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="/" title="Twitter">Twitter</a></li>
+            <li class="nav-item"><a class="nav-link" href="/" title="Facebook">Facebook</a></li>
+            <li class="nav-item"><a class="nav-link" href="/" title="Instagram">Instagram</a></li>
+			<li class="nav-item">.</li>
+            <li class="nav-item  active-pos"><a class="nav-link" href="/" title="Bang Bang">Bang Bang</a></li>
+            <li class="nav-item"><a class="nav-link" href="/" title="Mexican-Chinese">Mexican-Chinese</a></li>
+            <li class="nav-item"><a class="nav-link" href="/" title="Indo-Scandinavian">Indo-Scandinavian</a></li>
+            <li class="nav-item"><a class="nav-link" href="/" title="Polish-Korean">Polish-Korean</a></li>
+        </div> <!--navbar-collapse-->
+    </nav> 
+
+
+	<form method="POST" class="newPost">
+		<div class="container row justify-content-center">
+			<div class="post col-12">
+				<div class="row">
+					<img class="avatar col-2" src="images/profile-purple.svg">
+					<h3 class="name col-10">Someone's name</h3>
+				</div>
+				<textarea class="postText" placeholder="What's on your mind?" cols="100" rows="3" id="10"></textarea>
+				<p class="wordcount"><span class="characters">140</span> characters remaining</p>
+				<div class="button-holder">
+					<button type="submit" class="btn-post">POST</button>
+					<button type="submit" class="btn-post">WORD COUNT</button>
+				</div>
+			</div>
+		</div>
+	</form>
+
+	<div class="posts">
+		<div class="container row justify-content-center">
+			<div class="post col-12">
+				<div class="row">
+					<img class="avatar col-2" src="images/profile-teal.svg">
+					<h3 class="col-10">Ivory Breath</h3>
+				</div>	
+				<p id="12">Buffalo bulgogi, are you kidding me!?! Do yourself a favor and head to this restaurant.</p>
+				<button class="btn">+1</button>
+			</div>
+		</div>	
+		<div class="container row justify-content-center">
+			<div class="post col-12">
+				<div class="row">
+					<img class="avatar col-2" src="images/profile-yellow.svg">
+					<h3 class="col-10">Bacon West</h3>
+				</div>	
+				<p>Tacos, sausage, fundido, saurkraut and more! 10/10 would recommend.</p>
+				<button class="btn">+1</button>
+			</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script src="bootstrap.js"></script> 
+	<script src='main.js'></script>
+</body>
+
+</html>
